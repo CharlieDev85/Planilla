@@ -1,0 +1,231 @@
+html { height: 100%; width: 100%; }
+body {
+  width: 100%; height: 100%; 
+  margin: 0; padding: 0; border: 0;
+  font-family: "tlightregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px; line-height: 15px;
+  background: whitesmoke;
+}
+img { border: none; }
+a { color: #8D0D19; }
+a:hover { color: #1A446C; }
+select{
+	width: 200px;
+}
+
+.combos1 {
+    float: left;
+    width: 800px;
+    height: 250px;
+    margin-left: 20px;
+}
+
+.combos2 {
+	float: left;
+	width: 400px;
+	height: 300px;
+    margin-left: 15px;
+ }
+
+.generar1 {
+	float: left;
+	width: 1000px;
+	height: 120px;
+    margin-left: 15px;
+}
+
+.generar2 {
+	float:left;
+	width: 275px;
+	height: 119px;
+}
+
+.bonos {
+	float: left;
+	width: 450px;
+	height: 500px;
+	overflow: scroll;
+    margin-left: 10px;
+}
+
+.generar_planilla{
+	float:left;
+	width: 1010px;
+	height: 380px;
+    margin-left: 15px;
+}
+
+input.search {
+	width: 8em;  height: 3em;
+}
+
+#form_modificar_bono{
+	margin-left: 50px;
+}
+/*#header { */
+	/*height: 40px;*/
+	/*margin: 10px; padding: 5px; */
+	/*text-align: center;*/
+  	/*background: #e0cdf4; */
+	/*color: black;*/
+	/*border-radius: 15px;*/
+/*}*/
+
+.header{
+	height: 45px;
+	width: 100%;
+	background: #e0cdf4;
+    text-align: center;
+    background: #e0cdf4;
+    margin: 0.5px;
+    padding: 0.5px;
+    border-radius: 05px;
+}
+
+.header h1 { padding: 0em; margin: 0; }
+/*#main { */
+	/*height: 500px; width: 100%;*/
+	/*margin: 0; padding: 0; */
+	/*background: whitesmoke;*/
+/*}*/
+
+#cpeweb {
+	color:#595859;
+	text-underline: none;
+}
+
+/*#footer { */
+	/*clear: both;*/
+	/*height: 2em; margin: 1em;*/
+	/*text-align: center;*/
+	/*border-radius: 10px;*/
+  /*background: #333;  color: whitesmoke;*/
+/*}*/
+
+.footer{
+    height: 50px;
+    line-height: 50px;
+    width: 99.8%;
+    text-align: center;
+    background: #333;  color: whitesmoke;
+    vertical-align: middle;
+    border-radius: 10px;
+
+}
+
+/* Navigation */
+.navigation {
+	float: left;
+	width: 200px;
+	height: 550px;
+	/*margin: 40px 15px; padding: 0 2em;*/
+	color: #D4E6F4; background: #57a708;
+	border-radius: 10px;
+}
+.navigation a { color: #D4E6F4; text-decoration: none; }
+.navigation a:hover { color: #FFFFFF; }
+ul.subjects { 
+	margin: 1em 0; padding-left: 0; list-style: none;
+}
+ul.pages { padding-left: 2em; list-style: square; font-weight: normal; }
+.selected { font-weight: bold; }
+
+/* Page Content */
+
+#page h2 { color: #49166d; margin-top: 1em;}
+h3 {color: black;
+    text-align: center;
+}
+
+/*.view-content {*/
+	/*margin: 0em;*/
+	/*padding: 0em;*/
+	/*!*border: 1px solid #999;*!*/
+/*}*/
+
+.container{
+    height: 650px;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    background: whitesmoke;
+
+}
+
+.content{
+    height: 550px;
+    width: 995px;
+    background: whitesmoke;
+    overflow: scroll;
+
+}
+
+.wrapper{
+    height: 550px;
+    width: 1200px;
+    background: whitesmoke;
+}
+
+
+div.message { 
+	border: 2px solid #8D0D19;
+	color: #8D0D19; font-weight: bold;
+	margin: 1em 0 ; padding: 1em; 
+}
+
+.responstable {
+	text-align: center;
+    width: 100%;
+    overflow: scroll;
+    background: #FFF;
+	color: #024457;
+	border-radius: 5px;
+	border: 1px solid #167F92;
+    table-layout: fixed;
+    display: table;
+    border-collapse: collapse;
+    margin-left: 15px;
+ }
+
+.tabla_igss_salario{
+    text-align: center;
+    width: 500px;
+    overflow: scroll;
+    background: #FFF;
+    color: #024457;
+    border-radius: 5px;
+    border: 1px solid #167F92;
+    table-layout: fixed;
+    display: table;
+    border-collapse: collapse;
+    margin-left: 50px;
+}
+
+.table_bonos {
+	text-align: center;
+	margin: 1em 0;
+	width: 80%;
+	overflow: scroll;
+	background: #FFF;
+	color: #024457;
+	border-radius: 10px;
+	border: 1px solid #167F92;
+	table-layout: fixed;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 3px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/* errors */
+.error {
+	color: #8D0D19; border: 2px solid #8D0D19;
+	margin: 1em 0; padding: 1em;
+}
+.error ul { padding-left: 2em; }
+
